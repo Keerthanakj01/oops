@@ -7,6 +7,7 @@ public class This {
         this.cost = cost;
 }
 
+    
     public String getBrand(){
         return brand;
     }
@@ -15,7 +16,7 @@ public class This {
     }
 
    public static void main(String[] args){
-    Mobile mob = new Mobile("Redmi Note 8 pro", 16000);
+    This mob = new This("Redmi Note 8 pro", 16000);
 
     System.out.println("Mobile Brand:"+mob.getBrand());
     System.out.println("Mobile Cost:"+mob.getCost());
