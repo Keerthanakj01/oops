@@ -1,4 +1,4 @@
-public class MethodOverriding {
+public class MethodOverloading {
     
     void display(int a) {
         System.out.println("int parameter: " + a);
@@ -9,7 +9,7 @@ public class MethodOverriding {
     }
 
     public static void main(String[] args) {
-        MethodOverriding obj = new MethodOverriding();
+        MethodOverloading obj = new MethodOverloading();
         obj.display(5);
         obj.display(5.5);
     }
