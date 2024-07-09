@@ -2,7 +2,7 @@ public class This {
     private String brand;
     private double cost;
 
-    public Mobile(String brand,double cost){
+    public This(String brand,double cost){
         this.brand = brand;
         this.cost = cost;
 }
