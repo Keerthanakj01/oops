@@ -1,4 +1,4 @@
-public class Mobile {
+public class This {
     private String brand;
     private double cost;
 
