@@ -10,5 +10,14 @@ public class car {
     System.out.println(c.equals(c1));
     System.out.println(c.hashCode());
   }
+  // public String toString() {
+  //   return "Hiii";
+  // 	}
   
+//   public int hashCode() {
+//     	return 12345;
+//     	}
+
+// boolean equals(Equal n) {
+//   	return true;
 }
